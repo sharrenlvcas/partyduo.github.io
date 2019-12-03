@@ -30,7 +30,7 @@
 	width: 50%;
     height: auto;
     position: relative;
-    top: 14%;
+    top: 8%;
     left: 1%;
 }
 
@@ -46,12 +46,11 @@
 }
 
 #payment {
-	width: 100vw;
-    height: 70%;
+    width: 100vw;
+    height: 77%;
     position: absolute;
-    top: 30%;
+    top: 23%;
     background-color: white;
-
     
 }
 
@@ -74,7 +73,7 @@
 }
 
 .ppb {
-    height: calc(15% - 20px);
+   height: 6%;
     width: 80%;
     position: relative;
     margin-bottom: 20px;
@@ -87,24 +86,23 @@
 }
 
 .dot {
-    width: 30px;
-    height: 30px;
+    width: 22px;
+    height: 22px;
     border-radius: 50%;
     position: relative;
     float: left;
     background-color: white;
     background-position: center;
     margin-right: 5%;
-    top: 30%;
+    top: 18%;
     margin-left: 2%;
-
 }
 
 .pt {
-    height: 20px;
+  height: 20px;
     width: 80%;
     position: relative;
-    top: 40%;
+    top: 29%;
     left: 0;
     margin-right: 7%;
     display: block;
