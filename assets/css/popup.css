@@ -28,9 +28,9 @@
 
 #photoX {
 	position: relative;
-	width: 372px;
-	height: 546px;
-	top: 106px;
+    width: 90%;
+    height: 73%;
+    top: 12%;
 	background: url("../picture/party.png");
 	background-size: cover;
 	background-repeat: no-repeat;
