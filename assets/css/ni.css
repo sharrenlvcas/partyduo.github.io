@@ -21,10 +21,9 @@
 
 #bg {
 	position: absolute;
-	width: 414px;
-	height: 736px;
+	width: 100vw;
+	height: 100vh;
 	background: #4E95FF;
-	top: 0;
 }
 
 #nticket {
