@@ -4,7 +4,16 @@
 	<title>Party Duo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/popup.css" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+	<style type="text/css">
+		#belakang {
+			position: fixed;
+			top: 100vh;
+			left: 0;
+			transition: top 1s;
+		}
+	</style>
 </head>
 <body>
 	<div class="header">
@@ -61,10 +70,39 @@
 			</div>
 			<!-- <button id="star"></button>-->
 			<!-- masukin image icon di background-image, delete bg color -->
-			<div id="star"></div>	
+			<div id="star" onclick="document.getElementById('belakang').style.top='0'"></div>	
 		</div>
 	</div>
 
+	<div id="belakang">
+		<div class="x" onclick="document.getElementById('belakang').style.top='100vh'"></div>
+
+		<div id="photoX">
+			<div class="def">
+				<h2>CherryBomb</h2>
+				<div class="dnt">
+					<p>Date</p>
+					<h3>15/12/19</h3>
+				</div>
+
+				<div class="dnt">
+					<p>Time</p>
+					<h3>21:00</h3>
+				</div>
+				<p> lorem ipsum lorem ipsum lorem ipsum
+					lorem ipsum lorem ipsum lorem ipsum
+					lorem ipsum lorem ipsum lorem ipsum
+					lorem ipsum lorem ipsum lorem ipsum
+					lorem ipsum lorem ipsum lorem ipsum
+					lorem ipsum lorem ipsum lorem ipsum
+					lorem ipsum lorem ipsum lorem ipsum
+				</p>
+			</div>
+			<div id="want">
+				<h2>I WANT</h2>
+			</div>
+		
+	</div>
 
 
 </body>
