@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#belakang {
+	position: relative;
+	width: 414px;
+	height: 736px;
+	background: #4E95FF;
+}
+
+.x {
+
+	position: relative;
+	width: 45.55px;
+	height: 45.55px;
+	top: 58.21px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 50%;
+	margin-left: auto;
+    margin-right: auto;
+    background-image: url("../picture/x.png");
+        background-position: center;
+    background-size: contain;
+}
+
+#photoX {
+	position: relative;
+	width: 372px;
+	height: 546px;
+	top: 106px;
+	background: url("../picture/party.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.def {
+	position: relative;
+    width: 290px;
+    height: 189px;
+    margin-left: auto;
+    top: 200px;
+    background: #5D36CA;
+    border-radius: 27px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.def h2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: white;
+}
+
+.def p {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+
+.dnt {
+	position: relative;
+    width: 100px;
+    height: 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    float: left;
+    display: block;
+    background-color: transparent;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.dnt p {
+	position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: white;
+    text-align: left;
+    margin-left: -2%;
+}
+
+.dnt h3 {
+	position: relative;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	letter-spacing: 0.2em;
+	color: white;
+	text-align: left;
+}
+
+#want {
+	position: relative;
+	width: 335px;
+	height: 44px;
+	top: 250px;
+	display: block;
+	background: #4E19C0;
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#want h2 {
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 47px;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
+
+
+
